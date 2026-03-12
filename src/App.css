@@ -11,3 +11,40 @@
   overflow-y: auto;
   position: relative;
 }
+
+.discount-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.discount-modal {
+  background: rgb(253, 253, 251); 
+  color: rgb(26, 37, 73);
+  padding: 50px;
+  border: 10px dashed rgb(39, 45, 84);
+  text-align: center;
+  position: relative;
+}
+
+.scam-btn {
+  background: linear-gradient(to bottom, #faf7f7, #3f578e);
+  padding: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.moving-close-btn {
+  position: absolute;
+  bottom: 10px;
+  padding: 2px 5px;
+  font-size: 8px; 
+  transition: all 0.1s ease;
+}
