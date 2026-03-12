@@ -42,7 +42,7 @@ We have successfully violated the following scientific principles of design:
 
 ---
 
-## Tech Stack (The "Spaghetti" Edition)
+## Tech Stack 
 
 * **React:** Used to manage the chaotic state of a disappearing "Close" button.
 * **CSS:** Specifically crafted for visual noise (Neon yellows, dashed lime borders, and red text).
@@ -58,4 +58,4 @@ We have successfully violated the following scientific principles of design:
 ---
 
 **DISCLAIMER:** This is an educational project. Do not use these patterns in real-world applications unless you want to be hunted down by the UX Police.
-esk-uayq-pwx
+
