@@ -33,10 +33,10 @@ export default function App() {
   // 2. Ethical Violation: Price Gaslighting
   const handleConfirmRide = () => {
     const rideTypes = {
-      'Auto': 8500,
-      'Car': 10500,
-      'Bike': 5500,
-      'Premium': 55000
+      'Auto': 2500,
+      'Car': 7500,
+      'Bike': 1500,
+      'Premium': 15000
     }
     
     const actualPrice = rideTypes[selectedRideType] || Math.floor(Math.random() * 300) + 100
