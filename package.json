@@ -1,5 +1,9 @@
 {
-  "name": "design-disaster-foodapp",
+"name": "design_disaster_rideaway",
+  "private": true,
+  
+  "homepage": "https://vvvvvvss.github.io/design_disaster_RideAway/",
+  
   "version": "1.0.0",
   "type": "module",
   "scripts": {
