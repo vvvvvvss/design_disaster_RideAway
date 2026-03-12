@@ -1,0 +1,59 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.app-logo {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.nav-center {
+  flex: 2;
+  text-align: center;
+}
+
+.nav-title {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-right {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-button {
+  padding: 8px 16px;
+  background: #0f3460;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background: #16213e;
+}
+

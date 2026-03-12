@@ -1,0 +1,108 @@
+.ride-selection-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  position: relative;
+}
+
+.ride-selection-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.ride-selection-header h1 {
+  font-size: 32px;
+  color: #1a1a2e;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+.ride-selection-header p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+}
+
+.rides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.ride-card {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.ride-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  border-color: #ff6b6b;
+}
+
+.ride-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.ride-card h3 {
+  font-size: 20px;
+  color: #1a1a2e;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.ride-price {
+  font-size: 16px;
+  color: #ff6b6b;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.ride-eta {
+  font-size: 14px;
+  color: #888;
+  margin: 8px 0 16px 0;
+}
+
+.select-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.select-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.info-banner {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-banner p {
+  color: #555;
+  font-size: 14px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
